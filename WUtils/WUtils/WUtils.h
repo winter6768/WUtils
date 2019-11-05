@@ -9,6 +9,7 @@
 #ifndef WUtils_h
 #define WUtils_h
 
+#import "WJsonUtils.h"
 #import "WDateUtils.h"
 #import "WSystemInfoUtils.h"
 

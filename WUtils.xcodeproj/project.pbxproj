@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C846819622560B9F00F83AC4 /* NSString+WUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C846819522560B9F00F83AC4 /* NSString+WUtils.m */; };
+		C86910AE23710B2300ABFA25 /* WJsonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C86910AD23710B2300ABFA25 /* WJsonUtils.m */; };
 		C8BD8FAA224DFB2800D87D5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BD8FA9224DFB2800D87D5B /* AppDelegate.m */; };
 		C8BD8FAD224DFB2800D87D5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BD8FAC224DFB2800D87D5B /* ViewController.m */; };
 		C8BD8FB0224DFB2800D87D5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8BD8FAE224DFB2800D87D5B /* Main.storyboard */; };
@@ -44,6 +45,8 @@
 /* Begin PBXFileReference section */
 		C846819422560B9F00F83AC4 /* NSString+WUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+WUtils.h"; sourceTree = "<group>"; };
 		C846819522560B9F00F83AC4 /* NSString+WUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+WUtils.m"; sourceTree = "<group>"; };
+		C86910AC23710B2300ABFA25 /* WJsonUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJsonUtils.h; sourceTree = "<group>"; };
+		C86910AD23710B2300ABFA25 /* WJsonUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJsonUtils.m; sourceTree = "<group>"; };
 		C8BD8FA5224DFB2800D87D5B /* WUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BD8FA8224DFB2800D87D5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8BD8FA9224DFB2800D87D5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -159,6 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				C8BD8FE1224E00D000D87D5B /* WUtils.h */,
+				C86910AC23710B2300ABFA25 /* WJsonUtils.h */,
+				C86910AD23710B2300ABFA25 /* WJsonUtils.m */,
 				C8BD8FEB224E2B9100D87D5B /* WDateUtils.h */,
 				C8BD8FEC224E2B9100D87D5B /* WDateUtils.m */,
 				C8BD8FEE224E2BBD00D87D5B /* WSystemInfoUtils.h */,
@@ -310,6 +315,7 @@
 				C8BD8FAD224DFB2800D87D5B /* ViewController.m in Sources */,
 				C8BD8FF0224E2BBD00D87D5B /* WSystemInfoUtils.m in Sources */,
 				C846819622560B9F00F83AC4 /* NSString+WUtils.m in Sources */,
+				C86910AE23710B2300ABFA25 /* WJsonUtils.m in Sources */,
 				C8BD8FB8224DFB2900D87D5B /* main.m in Sources */,
 				C8EEE6DD225F2D5A006E94F0 /* UIResponder+WUtils.m in Sources */,
 				C8EEE6D7225F2CD1006E94F0 /* UIView+WUtils.m in Sources */,
@@ -494,6 +500,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.winter.WUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,6 +519,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.winter.WUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
